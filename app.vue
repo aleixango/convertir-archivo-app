@@ -35,6 +35,7 @@ const isDark = computed({
 
 <style>
 body {
+  @apply dark:bg-black;
   color-scheme: dark light;
 }
 </style>
